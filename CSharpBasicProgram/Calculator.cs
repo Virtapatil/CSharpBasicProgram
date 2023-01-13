@@ -26,5 +26,10 @@ namespace CSharpBasicProgram
             Sum = first + second;
             Console.WriteLine("Sum:" + Sum);
         }
+        public void Substraction()
+        {
+            Sum = Math.Abs(first - second); //10-30=-20
+            Console.WriteLine("Substraction:" + Sum);
+        }
     }
 }
